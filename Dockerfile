@@ -15,4 +15,6 @@ WORKDIR /etc/jupyterhub
 
 USER woorie
 
+EXPOSE 8000
+
 ENTRYPOINT jupyterhub -f /etc/jupyterhub/jupyterhub_config.py
